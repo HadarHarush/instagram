@@ -1,0 +1,24 @@
+.mobile-nav-bar {
+  position: fixed;
+  z-index: 200;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  padding: 10px 8%;
+  display: flex;
+  .logged-in-profile {
+    border-radius: 50%;
+    overflow: hidden;
+    height: 22px;
+    width: 22px;
+  }
+  .logged-in-profile img {
+    width: 22px;
+  }
+}
+
+// @media (max-width: 620px) {
+//   .mobile-nav-bar {
+//     display: flex;
+//   }
+// }

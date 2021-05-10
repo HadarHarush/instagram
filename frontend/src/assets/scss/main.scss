@@ -1,0 +1,36 @@
+@import 'setup/typography';
+@import 'setup/variables';
+@import 'basics/base';
+@import 'basics/helpers';
+@import 'basics/layout';
+
+//apps:
+@import 'apps/inner-app';
+
+//cards
+@import 'basics/cards';
+
+// components
+@import 'cmps/header/header';
+@import 'cmps/header/nav-bubble';
+@import 'cmps/posts-feed';
+@import 'cmps/post/post-view-partials';
+@import 'cmps/post/post-modal';
+@import 'cmps/post/post-preview';
+
+//modals
+@import 'cmps/modal/shadow-screen';
+@import 'cmps/modal/modal';
+@import 'cmps/modal/new-post-modal';
+
+//general tiny cmps:
+@import 'cmps/general-tiny-cmps/user-profile-img';
+
+//views
+@import 'views/inner-app/home';
+
+//mobile:
+@import 'mobile/cards';
+@import 'mobile/nav-bar';
+@import 'mobile/header';
+@import 'mobile/add-post';

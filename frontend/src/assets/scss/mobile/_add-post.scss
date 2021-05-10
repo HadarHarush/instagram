@@ -1,0 +1,14 @@
+.add-post.mobile {
+  .img-area > .post-img-placeholder-mobile,
+  .img-area > .cropper {
+    height: 100%;
+    width: 100%;
+  }
+
+  .post-img-mobile {
+    width: 100%;
+  }
+  .post-img-placeholder-mobile > img {
+    width: 50px;
+  }
+}

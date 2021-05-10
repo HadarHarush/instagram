@@ -1,0 +1,63 @@
+{
+  "_id": {
+    "$oid": "605864578918b62f68650dda"
+  },
+  "txt": "Best trip ever",
+  "imgUrl": [
+    "https://images.pexels.com/photos/3402695/pexels-photo-3402695.jpeg?cs=srgb&dl=pexels-cottonbro-3402695.jpg&fm=jpg"
+  ],
+  "createdAt": 123543452,
+  "by": {
+    "_id": "fgfgrgefgdgdf",
+    "username": "hadar_harush1",
+    "profileImgUrl": "http://ghfghfghr"
+  },
+  "comments": [
+    {
+      "id": "c1",
+      "by": {
+        "_id": "fgfgrgefgdgdf",
+        "username": "hadar_harush1",
+        "profileImgUrl": "http://ghfghfghr"
+      },
+      "txt": "good one!",
+      "likedBy": [
+        {
+          "_id": "fgfgrgefgdgdf",
+          "username": "hadar_harush1",
+          "profileImgUrl": "http://ghfghfghr"
+        },
+        {
+          "_id": "fgfgrgefgdgdf",
+          "username": "hadar_harush1",
+          "profileImgUrl": "http://ghfghfghr"
+        },
+        {
+          "_id": "fgfgrgefgdgdf",
+          "username": "hadar_harush1",
+          "profileImgUrl": "http://ghfghfghr"
+        },
+        {
+          "_id": "fgfgrgefgdgdf",
+          "username": "hadar_harush1",
+          "profileImgUrl": "http://ghfghfghr"
+        }
+      ],
+      "createdAt": {
+        "$numberLong": "1616244573586"
+      }
+    }
+  ],
+  "likedBy": [
+    {
+      "_id": "fgfgrgefgdgdf",
+      "username": "hadar_harush1",
+      "profileImgUrl": "http://ghfghfghr"
+    },
+    {
+      "_id": "fgfgrgefgdgdf",
+      "username": "hadar_harush1",
+      "profileImgUrl": "http://ghfghfghr"
+    }
+  ]
+}

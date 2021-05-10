@@ -1,0 +1,14 @@
+.posts-feed {
+  > * {
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: $break-normal) {
+  .posts-feed > * {
+    margin-bottom: 15px;
+  }
+  .posts-feed > *:last-child {
+    margin-bottom: 50px;
+  }
+}

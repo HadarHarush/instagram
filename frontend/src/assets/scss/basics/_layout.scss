@@ -1,0 +1,23 @@
+.main-container {
+  width: 935px;
+}
+
+.main-container.page-content {
+  margin: auto;
+  padding-top: 80px;
+}
+
+@media (max-width: $break-wide) {
+  .main-container {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media (max-width: $break-narrow) {
+  .main-container {
+    padding-left: unset;
+    padding-right: unset;
+  }
+}

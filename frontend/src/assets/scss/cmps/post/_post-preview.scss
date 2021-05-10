@@ -1,0 +1,10 @@
+@media (max-width: $break-normal) {
+  .post-preview {
+    .add-a-comment-box {
+      display: none;
+    }
+    .post-reactions-container {
+      border: unset !important;
+    }
+  }
+}

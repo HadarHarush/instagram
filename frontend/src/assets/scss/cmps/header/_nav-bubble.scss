@@ -1,0 +1,25 @@
+.nav-bubble {
+  font-size: 0.9rem;
+  border-radius: 7px;
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.0975);
+  border: 1px solid $border-grey;
+  overflow: hidden;
+  background-color: $page-white;
+}
+
+.nav-bubble .nav-bubble-content {
+  .content-item {
+    // border: 1px solid blue;
+    width: 230px;
+    padding: 10px 16px;
+    > *:first-child {
+      margin-inline-end: 0.6rem;
+    }
+  }
+  .content-item:hover {
+    background-color: rgba(250, 250, 250, 1);
+  }
+  > *:last-child {
+    border-top: 1px solid $border-grey;
+  }
+}

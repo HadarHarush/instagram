@@ -1,0 +1,35 @@
+.home {
+  width: 100%;
+  position: relative;
+  .feed-container {
+    width: 615px;
+    > *:first-child {
+      margin-bottom: 30px;
+    }
+  }
+  .suggestions-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 293px;
+  }
+}
+
+.posts-feed-container {
+  > * {
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: $break-wide) {
+  .suggestions-container {
+    display: none;
+  }
+
+  .home {
+    justify-content: center;
+    .feed-container {
+      width: 600px;
+    }
+  }
+}

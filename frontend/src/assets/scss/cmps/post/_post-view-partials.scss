@@ -1,0 +1,84 @@
+.post-header {
+  .profile-img {
+    margin-inline-end: 1rem;
+  }
+  .text > *:first-child {
+    margin-bottom: 0.1rem;
+  }
+  .text > *:last-child {
+    color: $strong-grey-font;
+  }
+}
+
+.post-img.preview-view > img {
+  width: 100%;
+}
+
+.post-reactions-container {
+  .pucblic-reactions-buttons-group > *:not(:last-child) {
+    margin-inline-end: 13px;
+  }
+}
+
+.liked-by {
+  .profile-img {
+    margin-inline-end: 7px;
+  }
+}
+
+.view-all-comments {
+  color: $weak-grey-font;
+}
+
+.add-a-comment-box {
+  > *:first-child {
+    > *:first-child {
+      margin-inline-end: 10px;
+    }
+  }
+  .post-button {
+    color: $blue-primary;
+    font-weight: bold;
+    opacity: 3;
+  }
+}
+
+.post-modal {
+  height: 500px;
+  .content-box {
+  }
+  .text-box {
+    overflow-y: scroll;
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
+    /* Hide scrollbar for IE, Edge and Firefox */
+    & {
+      -ms-overflow-style: none; /* IE and Edge */
+      scrollbar-width: none; /* Firefox */
+    }
+    .comment .profile-img {
+      margin-inline-end: 1rem;
+    }
+  }
+  .post-img > img {
+    width: 500px;
+  }
+}
+
+.comments.mobile {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  overflow-y: scroll;
+}
+
+@media (max-width: $break-wide) {
+  .header {
+    // padding: 10px 20px;
+  }
+}

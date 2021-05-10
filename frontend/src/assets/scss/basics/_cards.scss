@@ -1,0 +1,58 @@
+.big-box {
+  display: flex;
+  flex-direction: column;
+  border-inline-start: 1px solid $border-grey;
+}
+
+.big-box-item:not(:last-child) {
+  border-bottom: 1px solid $weak-border-grey;
+}
+
+.content-box {
+  padding: 16px 20px;
+}
+
+.second-content-box-container {
+  padding: 0 5px;
+}
+.second-content-box {
+  padding: 5px 20px;
+}
+
+.big-bottom-text-space {
+  margin-bottom: 0.3rem;
+}
+
+.little-bottom-text-space {
+  margin-bottom: 0.15rem;
+}
+
+.primary-publish {
+  color: $blue-primary;
+  font-weight: bold;
+}
+.primary-publish.not-active {
+  opacity: 0.3;
+}
+
+.classic-input {
+  border-bottom: 0.5px solid $weak-border-grey;
+  padding: 4px;
+}
+
+.button-with-bgc {
+  padding: 3px 8px;
+  background-color: $blue-primary;
+  color: white;
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: 0.2rem;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.profile-img {
+  margin-inline-end: 1rem;
+}

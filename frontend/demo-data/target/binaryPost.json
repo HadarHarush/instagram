@@ -1,0 +1,28 @@
+{
+  "_id": {
+    "$oid": "605864578918b62f68650dda"
+  },
+  "txt": "Best trip ever",
+  "imgUrl": [
+    "https://images.pexels.com/photos/3402695/pexels-photo-3402695.jpeg?cs=srgb&dl=pexels-cottonbro-3402695.jpg&fm=jpg"
+  ],
+  "createdAt": 123543452,
+  "by": "605863198918b62f68650dd6",
+  "comments": [
+    {
+      "id": "c1",
+      "by": "605863198918b62f68650dd7",
+      "txt": "good one!",
+      "likedBy": [
+        "605863198918b62f68650dd6",
+        "605863198918b62f68650dd7",
+        "605863198918b62f68650dd8",
+        "605863198918b62f68650dd9"
+      ],
+      "createdAt": {
+        "$numberLong": "1616244573586"
+      }
+    }
+  ],
+  "likedBy": ["605863198918b62f68650dd6", "605863198918b62f68650dd7"]
+}
